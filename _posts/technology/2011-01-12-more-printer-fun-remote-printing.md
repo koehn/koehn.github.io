@@ -1,6 +1,6 @@
 ---
 layout: techpost
-title: 'More Printer Fun: Remote Printing'
+title: More Printer Fun - Remote Printing
 ---
 
 While I’m at it, I often will be doing something at work that I’d like printed on my home printer. I’ve tried port forwarding 9100 over SSH but for whatever reason that’s not working for the Phaser 6128 Windows driver.
