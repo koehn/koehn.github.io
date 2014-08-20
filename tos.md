@@ -18,7 +18,7 @@ If you access or use the Service, it means you agree to be bound by all of the t
 
 We reserve the right to modify these Terms at any time. For instance, we may need to change these Terms if we come out with a new feature or for some other reason.
 
-Whenever we make changes to these Terms, the changes are effective six (6) weeks after we post such revised Terms to our website (indicated by revising the date at the top of these Terms), or upon your acceptance if we provide a mechanism for your immediate acceptance of the revised Terms (such as a click-through confirmation or acceptance button). It is your responsibility to check the website regularly for changes to these Terms.
+Whenever we make changes to these Terms, the changes are effective immediately after we post such revised Terms to our website (indicated by revising the date at the top of these Terms), or upon your acceptance if we provide a mechanism for your immediate acceptance of the revised Terms (such as a click-through confirmation or acceptance button). It is your responsibility to check the website regularly for changes to these Terms.
 
 If you continue to use the Service after the revised Terms go into effect, then you have accepted the revised Terms.
 
