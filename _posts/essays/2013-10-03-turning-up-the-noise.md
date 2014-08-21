@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: essay
 title: Turning up the noise
 ---
 
@@ -19,6 +19,6 @@ What if you installed a simple browser plugin that would randomly surf around on
 
 You can apply this technique for every service you use: online retailers like Amazon and Target, social networks (tag random people as you, “Like” random pages/tweets). The marketing groups will have a completely averaged view of who the real you really is: are you young? Old? Conservative? Liberal? Sick? Athletic? Drug user? Gun lover?
 
-At a more technical level, it’s easy to envision an application that blasts random bits across the internet, in a way that looks a lot like file sharing, or typing, or voice/video chat. But if it’s just random bits (or random bits over a known protocol), you can just imagine the NSA tying itself into knots trying to decipher your secret message. If you used well-known ports it would be even better. The more people that do this, the lower the value of the information going over the wire in the first place, and the less value that can be derived from it. 
+At a more technical level, it’s easy to envision an application that blasts random bits across the internet, in a way that looks a lot like file sharing, or typing, or voice/video chat. But if it’s just random bits (or random bits over a known protocol), you can just imagine the NSA tying itself into knots trying to decipher your secret message. If you used well-known ports it would be even better. The more people that do this, the lower the value of the information going over the wire in the first place, and the less value that can be derived from it.
 
-The point of all of this is that we can have some control over the image we project online. We just have to stop playing the game the way we have been: we need to take ownership of our identities and stop passively giving them away. 
+The point of all of this is that we can have some control over the image we project online. We just have to stop playing the game the way we have been: we need to take ownership of our identities and stop passively giving them away.
