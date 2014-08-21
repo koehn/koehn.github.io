@@ -10,6 +10,7 @@
             {% assign next = catg_posts[forloop.index] %}
             <a rel="prev" href="{{ next.url }}">&larr; Older</a>
         {% endunless %}
+            <a rel="home" href="/">Home</a>
         {% unless forloop.first %}
             <a rel="next" href="{{ prev.url }}">Newer &rarr;</a>
         {% endunless %}

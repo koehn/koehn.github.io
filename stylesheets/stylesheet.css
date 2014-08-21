@@ -311,12 +311,14 @@ Full-Width Styles
 
 .nav_top {
   clear: all;
+  text-align: center;
   padding-bottom: 40px;
 }
 
 .nav_bottom {
   clear: all;
-  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 a[rel~="next"] {
@@ -324,7 +326,7 @@ a[rel~="next"] {
 }
 
 a[rel~="prev"] {
-  float: left
+  float: left;
 }
 
 /*******************************************************************************
