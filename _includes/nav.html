@@ -1,0 +1,18 @@
+{% for category in site.categories %}
+    {% assign catg_name = category.first %}
+    {% if catg_name == page.category %}
+        {% assign catg_posts = category.last %}
+    {% endif %}
+{% endfor %}
+{% for post in catg_posts %}
+    {% if post.title == page.title %}
+        {% unless forloop.last %}
+            {% assign next = catg_posts[forloop.index] %}
+            <a rel="prev" href="{{ next.url }}">&larr; Older</a>
+        {% endunless %}
+        {% unless forloop.first %}
+            <a rel="next" href="{{ prev.url }}">Newer &rarr;</a>
+        {% endunless %}
+    {% endif %}
+    {% assign prev = post %}
+{% endfor %}
