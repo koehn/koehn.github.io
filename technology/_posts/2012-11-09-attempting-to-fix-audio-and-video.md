@@ -1,6 +1,7 @@
 ---
 layout: techpost
 title: Attempting to fix audio and video
+tags: mythtv audio also pulse vaapi
 ---
 
 After reading a bunch, I'm trying a few new things to get the video and audio to use their respective hardware components:

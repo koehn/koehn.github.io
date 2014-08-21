@@ -1,6 +1,7 @@
 ---
 layout: techpost
 title: Apache James progress
+tags: apache james iptables jconsole jmxx setup aws ec2
 ---
 
 Work to migrate to Apache James is coming along quite nicely. I bought a three-year lease on a reserved micro instance at AWS, which appears to be more than capable of running James.
@@ -10,15 +11,15 @@ Work to migrate to Apache James is coming along quite nicely. I bought a three-y
 * I wrote a short `iptables` script to route requests to ports above 1024. Use `service iptables save` to make sure the forwarding rules are present on restart.
 
 	#!/bin/bash
-	
+
 	# Sets up the iptables needed for James to work correctly.
-	
+
 	# When satisified, use `service iptables save` to save the rules so they'll be loaded on restart.
-	
+
 	# Drop all the rules
-	
+
 	iptables -F
-	
+
 	iptables -A FORWARD -p tcp --destination-port 465 -j ACCEPT
 	iptables -t nat -A PREROUTING -j REDIRECT -p tcp --destination-port 465 --to-ports 9465
 	iptables -A FORWARD -p tcp --destination-port 993 -j ACCEPT
@@ -27,7 +28,7 @@ Work to migrate to Apache James is coming along quite nicely. I bought a three-y
 	iptables -t nat -A PREROUTING -j REDIRECT -p tcp --destination-port 995 --to-ports 9995
 	iptables -A FORWARD -p tcp --destination-port 25 -j ACCEPT
 	iptables -t nat -A PREROUTING -j REDIRECT -p tcp --destination-port 25 --to-ports 9465
-	
+
 	echo "Run `service iptables save` to save these rules if they are acceptable."
 
 * I created an SSL key to use for IMAPS, POP3S, and SMTPS, generated a csr, and got it signed for three years. [Good instructions here](https://james.apache.org/server/3/config-ssl-tls.html).

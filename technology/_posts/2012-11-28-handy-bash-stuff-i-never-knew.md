@@ -1,6 +1,7 @@
 ---
 layout: techpost
 title: Handy bash stuff I never knew
+tags: bash editor vi emacs
 ---
 
 Somehow after using `bash` as my shell of choice for the past fifteen years or so, I've learned something new.

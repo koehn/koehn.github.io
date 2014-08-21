@@ -1,6 +1,7 @@
 ---
 layout: essay
 title: Turning up the noise
+tags: obfuscation privacy 
 ---
 
 With all the scuttlebutt recently about the NSA hacking everyone, with Google and Facebook and basically every other “free” online service selling your personal information to anyone with the slightest interest, you might be wondering what you can do to protect yourself.

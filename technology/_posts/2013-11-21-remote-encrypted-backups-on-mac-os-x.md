@@ -1,6 +1,7 @@
 ---
 layout: techpost
 title: Remote Encrypted Backups on Mac OS X
+tags: backups macosx encryption rsync diskimage
 ---
 
 Following up on my previous post, here's a script to back up a directory (in this case, the iPhoto library) to a remote server so that the files are all encrypted on the remote server.

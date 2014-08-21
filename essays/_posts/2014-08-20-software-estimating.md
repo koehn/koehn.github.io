@@ -1,6 +1,7 @@
 ---
 layout: essay
 title: On software estimating
+tags: software estimating estimate risk analysis
 ---
 
 Often when I’m working at a client I get pulled into discussions about estimating; the people writing the checks want to have some idea about how much and how long, which is understandable: having an estimate from the people who are going to do the work gives one a measure, allows one to make strategic decisions about what projects to fund, and lets one monitor actual progress against the estimate. All good things.

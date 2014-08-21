@@ -1,6 +1,7 @@
 ---
 layout: essay
 title: Test frameworks
+tags: test unit integration hibernate stability
 ---
 Recently I was submitting a [pull request](https://github.com/hibernate/hibernate-orm/pull/731) to to address a [defect](https://hibernate.atlassian.net/browse/HHH-9142) in a well-known [Java persistence framework](http://hibernate.org). I wrote the fix (which was two lines of code), and, since there were no tests written for the current codebase, I submitted the PR.
 

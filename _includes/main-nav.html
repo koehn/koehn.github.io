@@ -5,8 +5,11 @@
       {% include nav.html %}
     </div>
     {{content}}
+    {% for tag in page.tags %}
+    <span class="tag">{{ tag }}</span>
+    {% endfor %}
     <div class="nav_bottom">
-      {% include nav.html %} 
+      {% include nav.html %}
     </div>
   </section>
 </div>

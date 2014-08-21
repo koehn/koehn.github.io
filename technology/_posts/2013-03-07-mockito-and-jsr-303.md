@@ -1,6 +1,7 @@
 ---
 layout: techpost
 title: Mockito and JSR-303
+tags: mockito annotation design testing junit
 ---
 
 My current client maintains contracts to insure methods are called with the right parameters. Sad thing is that they way they’ve done this to date has involved writing statements into their interface implementation classes. There are several downsides to this approach:

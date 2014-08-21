@@ -1,6 +1,7 @@
 ---
 layout: techpost
 title: Migrating to Jekyll
+tags: jekyll liquid ruby google blogger migrate
 ---
 
 I decided to finally commit to getting my blog off of Blogger and onto Jekyll. There are a number of advantages:

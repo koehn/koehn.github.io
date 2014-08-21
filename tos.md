@@ -112,4 +112,3 @@ We love feedback. Please let us know what you think of the Service, these Terms 
 ## Questions & Contact Information
 
 Questions or comments about the Service may be directed to us at the email address [brad@koehn.com](mailto:brad@koehn.com).
-

@@ -1,6 +1,7 @@
 ---
 layout: techpost
 title: Reasons to hate gmail
+tags: gmail smtp ipv6 
 ---
 
 So I've been running a mail server with IPv4 and IPv6 on it for a while. Recently, Google started rejecting email I send it over IPv6:

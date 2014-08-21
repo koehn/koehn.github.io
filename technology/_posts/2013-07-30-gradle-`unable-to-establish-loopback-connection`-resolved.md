@@ -1,6 +1,7 @@
 ---
 layout: techpost
 title: Gradle `Unable to establish loopback connection` resolved
+tags: gradle java windows virus
 ---
 
 So all of a sudden I began having issues with Gradle 1.6 builds failing, and this time not because of my code. I was getting errors like this:
