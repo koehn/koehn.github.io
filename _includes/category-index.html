@@ -4,8 +4,17 @@
         {% assign catg_posts = category.last %}
     {% endif %}
 {% endfor %}
+
+<div class="nav_top">
+  <a rel="home" href="/">Home</a>
+</div>
+
 <ul class="posts">
   {% for post in catg_posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+<div class="nav_bottom">
+  <a rel="home" href="/">Home</a>
+</div>
