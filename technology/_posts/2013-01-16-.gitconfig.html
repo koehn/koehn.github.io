@@ -1,6 +1,0 @@
----
-layout: techpost
-title: ".gitconfig"
----
-
-This is my .gitconfig. There are others like it but this one is mine. This is intended to be a live document that I'll update over time.<br /><br /><pre>[color]<br />        status = auto<br /><br />[alias]<br />  co = checkout<br />  ci = commit<br />  st = status<br />  br = branch<br />  hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit --date=relative<br />  type = cat-file -t<br />  dump = cat-file -p<br />  undo = reset --hard<br />  new = !sh -c 'git log $1@{1}..$1@{0} "$@"'<br />  add-no-iml = !git add `git status -s --untracked-files=no | cut -c 4- | grep -v \\.iml`<br />  checkout-iml = !git checkout `git status -s | cut -c 4- | grep \\.iml`<br />  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat<br />  ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate<br />  ld = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative<br />  dl = "!git ll -1"<br />  dlc = diff --cached HEAD^<br /></pre>

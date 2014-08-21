@@ -1,6 +1,0 @@
----
-layout: techpost
-title: Handy bash stuff I never knew
----
-
-Somehow after using <code>bash</code> as my shell of choice for the past fifteen years or so, I've learned something new.<br /><br />It turns out you can open the current command line into an editor, make your changes there, and then execute the modified command. This is incredibly useful for those long, tricky commands, or when you need to make complex edits.<br /><br />Sadly the default editor is <code>emacs</code>. This is a shame, because<br /><ol><li><code>emacs</code> isn't installed by default on all Unices</li><li><code>vi</code> is a vastly superior editor (because I know it and not <code>emacs</code>; see above)</li></ol>You can change the editor bash uses to VI by simply setting the <code>EDITOR</code> variable at shell startup (e.g., <code>.bashrc</code>, <code>/etc/bash.bashrc</code>).<br /><br /><pre>export EDITOR=vi # or vim if you prefer</pre>
