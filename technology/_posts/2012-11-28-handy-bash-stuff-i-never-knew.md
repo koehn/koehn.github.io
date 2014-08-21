@@ -13,4 +13,4 @@ Sadly the default editor is `emacs`. This is a shame, because
 1.  `emacs` isn't installed by default on all Unices
 2.  `vi` is a vastly superior editor (because I know it and not `emacs`; see above)You can change the editor bash uses to VI by simply setting the `EDITOR` variable at shell startup (e.g., `.bashrc`, `/etc/bash.bashrc`).
 
-    export EDITOR=vi # or vim if you prefer
+    `export EDITOR=vi # or vim if you prefer`
