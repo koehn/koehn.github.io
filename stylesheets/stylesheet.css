@@ -309,6 +309,24 @@ Full-Width Styles
   background: #212121;
 }
 
+.nav_top {
+  clear: all;
+  padding-bottom: 40px;
+}
+
+.nav_bottom {
+  clear: all;
+  padding-top: 40px;
+}
+
+a[rel~="next"] {
+  float: right;
+}
+
+a[rel~="prev"] {
+  float: left
+}
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
