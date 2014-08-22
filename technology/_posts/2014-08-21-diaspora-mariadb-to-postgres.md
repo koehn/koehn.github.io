@@ -108,3 +108,5 @@ Then I had to shut off my pod and move the data over. To do this, I used [py-mys
     index_prefix:
 
 Once that completed (about ten minutes or so was all it took), I just started the pod with `DB=postgres ./script/server` and it ran fine!
+
+I highly recommend reading the [Tuning Your PostgreSQL Server](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server) guide as well, as it will make the database run even faster. 
