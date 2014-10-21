@@ -3,6 +3,9 @@ layout: techpost
 title: Migrating Diaspora from MariaDB (MySQL) to Postgresql
 tags: diaspora mariadb mysql postgresql migration
 ---
+
+**Update:** my diaspora handle is bkoehn@diaspora.koehn.com. Feel free to send questions that way. 
+
 I decided to bite the bullet and move my pod from MariaDB (an enhanced MySQL) to Postgresql. It wasn't too bad, and the performance seems to be much improved. I thought I'd write down what I did before I forget.
 
 I started by installing Postgresql, and creating a user `diaspora` that had `CREATE DATABASE` privileges:
